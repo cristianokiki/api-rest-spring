@@ -1,0 +1,2 @@
+CREATE TABLE pessoa(codigo int PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(50) NOT NULL, ativo BIT NOT NULL, bairro VARCHAR(50), cep VARCHAR(8), cidade VARCHAR(50) NOT NULL, complemento VARCHAR(100),
+estado VARCHAR(50), logradouro VARCHAR(50), numero INT)  ENGINE=InnoDB DEFAULT CHARSET=utf8;

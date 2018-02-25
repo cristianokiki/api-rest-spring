@@ -1,0 +1,28 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.money.api.config.property.MoneyApiProperty",
+      "name": "money",
+      "type": "com.money.api.config.property.MoneyApiProperty"
+    },
+    {
+      "sourceType": "com.money.api.config.property.MoneyApiProperty",
+      "name": "money.seguranca",
+      "sourceMethod": "public com.money.api.config.property.MoneyApiProperty.Seguranca getSeguranca() ",
+      "type": "com.money.api.config.property.MoneyApiProperty$Seguranca"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.money.api.config.property.MoneyApiProperty",
+      "name": "money.origem-permitida",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.money.api.config.property.MoneyApiProperty$Seguranca",
+      "name": "money.seguranca.enable-https",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
